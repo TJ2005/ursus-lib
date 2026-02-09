@@ -1,0 +1,58 @@
+{
+  "name": "@ursus/variable-width-text-core",
+  "version": "0.1.0",
+  "description": "Core TypeScript library for variable width text tweening and animation",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "vite examples --open",
+    "dev:build": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "tween",
+    "animation",
+    "text",
+    "variable-width",
+    "typescript",
+    "variable-font",
+    "font-weight",
+    "easing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TJ2005/ursus-lib",
+    "directory": "packages/variable-width-text-core"
+  },
+  "bugs": {
+    "url": "https://github.com/TJ2005/ursus-lib/issues"
+  },
+  "homepage": "https://github.com/TJ2005/ursus-lib#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "vite": "^7.3.1",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "bezier-easing": "^2.1.0"
+  }
+}
