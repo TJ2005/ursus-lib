@@ -1,5 +1,5 @@
 {
-  "name": "@ursus/variable-width-text-core",
+  "name": "@studioursus/variable-width-text-core",
   "version": "0.1.0",
   "description": "Core TypeScript library for variable width text tweening and animation",
   "type": "module",

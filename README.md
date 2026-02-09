@@ -4,7 +4,7 @@ A monorepo of text animation and manipulation libraries built with TypeScript.
 
 ## Packages
 
-### [@ursus/variable-width-text-core](./packages/variable-width-text-core)
+### [@studioursus/variable-width-text-core](./packages/variable-width-text-core)
 
 Core TypeScript library for animating variable font weights with smooth easing.
 
@@ -17,13 +17,13 @@ Core TypeScript library for animating variable font weights with smooth easing.
 - Framework-agnostic (works with React, Vue, Svelte, vanilla JS)
 
 ```bash
-npm install @ursus/variable-width-text-core
+npm install @studioursus/variable-width-text-core
 ```
 
 ## Planned Packages
 
-- `@ursus/text-randomizer` - Text randomization and scrambling effects
-- `@ursus/text-animator` - Advanced text animation utilities
+- `@studioursus/text-randomizer` - Text randomization and scrambling effects
+- `@studioursus/text-animator` - Advanced text animation utilities
 - More text manipulation libraries coming soon
 
 ## Development

@@ -1,4 +1,4 @@
-# @ursus/variable-width-text-core
+# @studioursus/variable-width-text-core
 
 Core TypeScript library for animating variable font weights with smooth easing.
 
@@ -14,17 +14,17 @@ Core TypeScript library for animating variable font weights with smooth easing.
 ## Installation
 
 ```bash
-npm install @ursus/variable-width-text-core
+npm install @studioursus/variable-width-text-core
 # or
-pnpm add @ursus/variable-width-text-core
+pnpm add @studioursus/variable-width-text-core
 # or
-yarn add @ursus/variable-width-text-core
+yarn add @studioursus/variable-width-text-core
 ```
 
 ## Quick Start
 
 ```typescript
-import { VariableTextTweener, Easing } from '@ursus/variable-width-text-core'
+import { VariableTextTweener, Easing } from '@studioursus/variable-width-text-core'
 
 const tweener = new VariableTextTweener({
   duration: 1000,
